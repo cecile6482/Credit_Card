@@ -1,0 +1,19 @@
+{
+  "name": "credit_card",
+  "version": "1.0.0",
+  "description": "## Component Credit Card Vous allez développer un composant permettant de recueillir les informations d'une carte de crédit en amont du paiement avec une animation FLIP.",
+  "main": "index.js",
+  "scripts": {
+    "watch": "sass --watch assets/scss/app.scss assets/css/style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cecile6482/Credit_Card.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cecile6482/Credit_Card/issues"
+  },
+  "homepage": "https://github.com/cecile6482/Credit_Card#readme"
+}
