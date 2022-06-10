@@ -1,0 +1,59 @@
+/*Fomulaire*/
+
+.right {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+  
+.class {
+  color: #969696;
+  font-size: 16px;
+}
+
+#transac {
+  color: #008000;
+}
+
+label {
+  color: #46545c;
+  font-size: 17px;
+  display: block;
+}
+
+.label {
+  text-align: center;
+  margin-top: 20px;
+}
+
+input {
+  padding: 10px;
+  border-radius: 4px;
+  border: 1px solid #4a707a;
+}
+
+.input {
+  width: 100%;
+}
+
+.pinpout {
+  width: 70%;
+  margin: auto;
+}
+
+
+.crypto {
+  display: flex;
+  text-align: center;
+  width: 70%;
+  margin: auto;
+  margin-top: 20px;
+}
+
+.number {
+  width: 89%;
+}
+
+.cvc, .dandc {
+  width: 100%;
+}

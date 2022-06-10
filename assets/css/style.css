@@ -1,5 +1,216 @@
+.left {
+  margin: auto;
+}
+
+.carte {
+  position: relative;
+  perspective: 1000px;
+}
+
+.carte-avant {
+  background-color: #94B0B7;
+  width: 350px;
+  height: 200px;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+}
+
+.headercarte {
+  display: flex;
+  flex-direction: column;
+  height: 100px;
+  width: 100%;
+}
+
+.footercarte {
+  display: flex;
+  width: 100%;
+  height: 100px;
+}
+
+.top {
+  width: 100%;
+  height: 50px;
+}
+
+.mid {
+  width: 100%;
+  height: 50px;
+  margin: auto;
+  font-size: 35px;
+  color: #eeeeee;
+  text-align: center;
+}
+.mid p {
+  font-size: 33px;
+  margin: 10px;
+  color: #eeeeee;
+}
+
+.bottoml, .bottomr {
+  width: 50%;
+  height: 100px;
+  text-align: center;
+}
+
+.bottoml p, .bottomr p {
+  color: #eeeeee;
+}
+
+#noir {
+  width: 100%;
+  height: 40px;
+  margin-top: 40px;
+  background-color: black;
+}
+
+#blanc-flex {
+  display: flex;
+}
+#blanc-flex p {
+  margin-left: 10px;
+  font-size: 15px;
+}
+
+#blanc {
+  margin-top: 20px;
+  margin-left: 20px;
+  width: 70%;
+  height: 25px;
+  background-color: #eeeeee;
+  display: inline-block;
+}
+
+/*Fomulaire*/
+.right {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+
+.class {
+  color: #969696;
+  font-size: 16px;
+}
+
+#transac {
+  color: #008000;
+}
+
+label {
+  color: #46545c;
+  font-size: 17px;
+  display: block;
+}
+
+.label {
+  text-align: center;
+  margin-top: 20px;
+}
+
+input {
+  padding: 10px;
+  border-radius: 4px;
+  border: 1px solid #4a707a;
+}
+
+.input {
+  width: 100%;
+}
+
+.pinpout {
+  width: 70%;
+  margin: auto;
+}
+
+.crypto {
+  display: flex;
+  text-align: center;
+  width: 70%;
+  margin: auto;
+  margin-top: 20px;
+}
+
+.number {
+  width: 89%;
+}
+
+.cvc, .dandc {
+  width: 100%;
+}
+
+.pboutton {
+  text-align: center;
+}
+
+#paie {
+  margin: 20px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  width: 50%;
+  border-radius: 4px;
+  border: 1px solid #46545c;
+  background-color: #4a707a;
+  color: #eeeeee;
+  font-size: 21px;
+}
+
+/* Position the front and back side */
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+
+.flip-card-front {
+  color: black;
+}
+
+/* Style the back side */
+.flip-card-back {
+  background-color: #94b0b7;
+  border-radius: 15px;
+  color: white;
+  transform: rotateY(180deg);
+}
+
+.flip-card {
+  background-color: transparent;
+  width: 350px;
+  height: 200px;
+  border: 1px solid #c2c8c5;
+  perspective: 1000px;
+}
+
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
 body {
   background-color: #c2c8c5;
+}
+
+.header {
+  text-align: center;
+}
+
+h1 {
+  color: #4a707a;
+  font-size: 35px;
+  margin-top: 3%;
+}
+
+.container {
+  display: flex;
+  width: 80%;
+  margin: auto;
 }
 
 /*# sourceMappingURL=style.css.map */

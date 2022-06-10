@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Credit Card</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+    <div class="header">
+        <h1>Paiement par carte de crédit</h1>
+        <p>Frais de transaction <span>0.00 &euro;</span></p>
+    </div>
+
+    <div class="container">
+        <div class="left">
+            <div class="carte flip-card">
+                <div class="carte-inner flip-card-inner" id="flip">
+                    <div class="carte-avant flip-card-front">
+                        <div class="headercarte">
+                            <div class="top"></div>
+                        </div>
+                        <div class="midcarte">
+                            <div class="mid"> <p id="numbercard">&bull;&bull;&bull;&bull; &bull;&bull;&bull;&bull; &bull;&bull;&bull;&bull; &bull;&bull;&bull;&bull;</p> </div>
+                        </div>
+                        <div class="footercarte">
+                                <div class="bottoml"><p id="namecard">FULL NAME</p></div>
+                                <div class="bottomr"><p id="datecard">MM / YY</p></div>
+                        </div>
+                    </div>
+                    <div class="flip-card-back">
+                        <div id="noir"></div>
+                        <div id="blanc-flex">
+                            <div id="blanc"></div>
+                            <p id="cryptogramme">&bull;&bull;&bull;</p>
+                            <p></p>
+                        </div>
+    
+                    </div>
+                </div>
+            </div>
+            <p>🔒 Paiement sécurisé par by HiPay SAS, 256-bit SSL</p>
+        </div>
+        <div class="right">
+            <form action="">
+                <label class="label">Numéro de la carte</label>
+                <div class="pinpout">
+                    <input id="numb-card" class="input" type="text" pattern="^((67\d{2})|(4\d{3})|(5[1-5]\d{2})|(6011))(-?\s?\d{4}){3}|(3[4,7])\d{2}-?\s?\d{6}-?\s?\d{5}$" maxlength="19">
+                </div>
+                <label class="label">Titulaire de la carte</label>
+                <div class="pinpout">
+                    <input  id="name" class="input" type="text" pattern="([a-zA-Z',.-]+( [a-zA-Z',.-]+)*){2,30}">
+                </div>
+                <div class="crypto">
+                    <div class="dandc">
+                        <label class="">Date d'expiration</label>
+                            <input id="date" class="number" type="text" placeholder="MM / YY" pattern="(0[1-9]|10|11|12)/[0-9]{2}" maxlength="5">
+                    </div>
+                    <div class="dandc">
+                        <label>Cryptogramme</label>
+                            <input id="crypto" class="cvc" type="text" pattern="[0-9]{3}" placeholder="CVC" maxlength="3">
+                    </div>
+                </div>
+                <div class="pboutton">
+                    <button id="paie" type="submit">Payer 35.49€</button>
+                </div>
+            </form>
+    
+        </div>
+    </div>
+
+
+    <script src="./assets/js/index.js"></script>
+</body>
+</html>

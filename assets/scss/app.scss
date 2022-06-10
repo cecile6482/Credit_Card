@@ -1,3 +1,24 @@
+@import "_card.scss";
+@import "_form.scss";
+@import "_btn.scss";
+@import "_position.scss";
+
 body {
     background-color: #c2c8c5;
+}
+
+.header {
+    text-align: center;
+}
+
+h1 {
+    color: #4a707a;
+    font-size: 35px;
+    margin-top: 3%;
+}
+
+.container {
+    display: flex;
+    width: 80%;
+    margin: auto;
 }
